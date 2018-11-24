@@ -19,7 +19,7 @@
 .cabecalho-imagem {
     grid-column: 1 / span 3;
     grid-row: 1 / span 5;
-    background-image: url("/src/img/imagem-cabecalho.jpg");
+    background-image: url("../img/imagem-cabecalho.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
