@@ -1,0 +1,39 @@
+.main{
+    margin-top: 10%
+}
+
+.geo-google{
+    width: 900px; 
+    height: 500px;
+
+}
+
+.cabecalho {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: transparent;
+
+
+}
+.cabecalho-imagem {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 5;
+    background-image: url("/src/img/imagem-cabecalho.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aliceblue;
+    filter: blur(8px);
+    /* position: ; */
+    z-index: -9999;
+
+}
+.cabecalho-texto {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 3;    
+}
+/* .nav-color {
+background-color: chartreuse;
+
+} */
